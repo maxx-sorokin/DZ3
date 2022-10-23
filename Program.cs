@@ -78,6 +78,7 @@ bool PalindromeCheck(int[] array)
 
 
 
+
 // Задача 21 - Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 
 if (z == 21)
@@ -94,7 +95,7 @@ if (z == 21)
 
     if (!isParsedXA || !isParsedYA || !isParsedZA || !isParsedXB || !isParsedYB || !isParsedZB)
     {
-        Console.WriteLine("Ошибка! Не правильо введены координаты");
+        Console.WriteLine("Ошибка! Не правильно введены данные");
         return;
     }
 
@@ -108,6 +109,9 @@ double Distance3D(int x1, int y1, int z1, int x2, int y2, int z2)
     double dis = Math.Sqrt((x1 - x2) * (x1 - x2) + (y1 - y2) * (y1 - y2) + (z1 - z2) * (z1 - z2));
     return dis;
 }
+
+
+
 
 
 // Задача 23 - Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
